@@ -19,7 +19,7 @@ public class ex01 {
 	public static String fun(int a) {
 		String i = "";
 		while (a > 0) {
-			i = Integer.toBinaryString(a % 2) + i;
+			i = (a % 2) + i;
 			a = a / 2;
 
 		}
